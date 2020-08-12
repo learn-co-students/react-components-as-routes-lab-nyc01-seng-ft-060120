@@ -12,7 +12,7 @@ const NavBar = () => {
   }
 
   return (
-    <div>
+    <div className="navbar">
       <NavLink to='/' exact style={link} activeStyle={{background: 'darkblue'}}>Home</NavLink>
       <NavLink to='/movies' exact style={link} activeStyle={{background: 'darkblue'}}>Movies</NavLink>
       <NavLink to='/directors' exact style={link} activeStyle={{background: 'darkblue'}}>Directors</NavLink>
